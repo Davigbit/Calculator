@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  font-size: 55px;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.visible-space {
+  white-space: pre;
+}
+
+.terminal {
+  border: none;
+  margin: 20px;
+}
+
+.button {
+  margin: 12px;
+}
+
+.number {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  font-size: 40px;
+  border: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.operation {
+  background-color: rgb(250, 165, 32);
+  color: white;
+  font-size: 40px;
+  border: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  cursor: pointer;
+}
+
+.clear {
+  background-color: rgb(32, 32, 32);
+  color: white;
+  font-size: 30px;
+  border: none;
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+  cursor: pointer;
+}
