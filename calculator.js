@@ -61,6 +61,8 @@ function clickEquals() {
       document.querySelector('.js-terminal').innerHTML = "Division by zero";
       terminal = "";
       return;
+    } else if (result === undefined) {
+      return;
     }
     terminal = "";
     document.querySelector('.js-terminal').innerHTML = result;
